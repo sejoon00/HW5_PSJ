@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[9]:
+# In[10]:
 
 
 import csv
@@ -21,6 +21,7 @@ for row in data :
     sum += temp
     count +=1
 average = float(max/count)
+print("*** Annual Temperature Report for Seoul in 2022 ***")
 print("Average Temperature:",round(average,2),"Celsius")
 print("Average Minimum Temperature:",round(min,2),"Celsius")
 print("Average Maximum Temperature:",round(max,2),"Celsius")
