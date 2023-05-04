@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[19]:
+# In[1]:
 
 
 import csv
 if __name__ == "__main__":
-    f = open('202303_Seoul_Subway.csv','r', encoding='UTF-8')
+    f = open('q4.csv','r', encoding='UTF-8')
     data = csv.reader(f)
     header = next(data)
     curLineNum = 0

@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[24]:
+# In[1]:
 
 
 import csv
 
 if __name__ == "__main__":
-    f = open('2022_Seoul_Temp.csv','r', encoding='cp949')
+    f = open('q1.csv','r', encoding='cp949')
     data = csv.reader(f)
     header = next(data)
     min = 999
